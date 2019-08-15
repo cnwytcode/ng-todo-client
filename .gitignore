@@ -9,7 +9,7 @@
 
 # dependencies
 /node_modules
-
+/vendor
 # profiling files
 chrome-profiler-events*.json
 speed-measure-plugin*.json
@@ -44,3 +44,17 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+# Laravel 5 & Lumen specific
+public/storage
+public/hot
+storage/*.key
+.env.*.php
+.env.php
+.env
+Homestead.yaml
+Homestead.json
+
